@@ -1,0 +1,109 @@
+body{ /* body, font family, margin, padding, box sizing */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier Prime'
+}
+section /* position, width, height and the display of the gif */
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .contentBx /* content, display, justify, align, width and height */
+{
+	background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+section .contentBx .formBx /* content and form width */
+{
+    width: 50%;
+}
+section .contentBx .formBx h2 /* color, font w, font s, text transfrom, margin, border, display, spacing of the content & form header */
+{
+    color: #834FD9;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #A26BF8;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx /*content, form and input margin */
+{
+    margin-bottom: 20px;
+}
+section .contentBx .formBx .inputBx span /* content, form and input`s font s, margin, display, color, font w&s and letter space */
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #834FD9;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentBx .formBx .inputBx input /* content, form and input data measurements, color and bg*/
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #834FD9;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #834FD9;
+    background: transparent;
+    border-radius: 30px;
+}
+section .content .form .inputBx input[type="submit"] /* content, form, input submit`s bg, color, outline, border, font and cursor */
+{
+    background: #A26BF8;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover /* cursor hover bg */
+{
+    background: #A26BF8;
+}
+section .contentBx .formBx .remember /* content, form and remember`s margin, color, font measurements */
+{
+    margin-bottom: 10px;
+    color: #834FD9;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx p /* color of the box */
+{
+    color: #834FD9;
+}
+section .contentBx .formBx .inputBx p a /*sign in color */
+{
+    color: #A26BF8;
+}
+section .img /* position, width and height of the gif  */
+{
+    position: relative;
+    width: 50%;
+    height: 100;
+}
+ 
+section .img img /* image position, top, left, width, height, object fit */
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

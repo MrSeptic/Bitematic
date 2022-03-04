@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" type="text/css" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<section>
+    <div class = img>
+        <img src ="/imgs/login.jpg">
+    </div>
+<div class="contentBx">
+<div class="formBx">
+    <h2>Bitematic</h2>
+<form>
+    <div class="inputBx">
+        <span>Username</span>
+        <input type="text" id = "username" name=""> <!-- name input  -->
+    </div>
+    <div class="inputBx">
+            <span>Password</span>
+            <input type="password" id = "password" name=""> <!-- password input  -->
+    </div>
+    <div class="remember">
+        <label><input type="checkbox" name=""> Remember Me</label>
+    </div>
+    <div class="inputBx">
+        <input type="submit" id = "loginButton" value="Sign In" name=""> <!-- the sign in button  -->
+    </div>
+    <div class="inputBx">
+        <p>Don`t have an Account? <a id = "goRegister"  href="#">Sign Up</a></p> <!-- dont you have an account and sign up link  -->
+    </div> 
+</form>
+    
+    <button type = "button" id = "goHome">Home</button>
+    <label id = "errorLabel"></label>
+</div>
+</div>
+    <script type = "module" src = "login.js">
+    </script>
+</section>
+</body>
+</html>
